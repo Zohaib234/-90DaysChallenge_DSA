@@ -1,4 +1,4 @@
-# -90DaysChallenge_DSA
+# 90DaysChallenge_DSA
 Fork repo add your name folder with commit "challenge Accepted"
 Add atleast one question daily
 Make subfolders of dsa topics inside your folder.
