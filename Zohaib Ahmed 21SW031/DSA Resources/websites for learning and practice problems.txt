@@ -1,0 +1,13 @@
+for learning
+
+1) GeeksForGeeks 
+2) JavaTpoint
+3) W3School
+
+
+for practice
+
+1) HackerRank 
+2) LeetCode 
+3) AlgoExpert ( paid )
+4) CodeStudio
