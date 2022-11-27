@@ -3,3 +3,4 @@
 3)  Code with Mosh  ( suggested by literally all seniors)
 4) Harvard CS50 course on FreeCodeCamp 
 5) Jenny Lecture   (Best for pseudo Code practice)
+6) DSA Youtube channel for beginer (ForMyScholars - YouTube)
