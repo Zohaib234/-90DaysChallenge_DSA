@@ -7,6 +7,7 @@ class Node {
     int data;
     Node* next;
 
+    
     Node(int data){
         this->data=data;
         this->next=NULL;
@@ -37,8 +38,12 @@ int main()
 {
 
 Node* head = NULL;
-// Node* first  = new Node(5);
-// Node* second = new Node(10);
+Node* first  = new Node(5);
+head = first;
+
+Node* second = new Node(10);
+first->next=second;
+second->next=NULL;
 // Node* third  = new Node(15);
 // head=first;
 // first->next = second;

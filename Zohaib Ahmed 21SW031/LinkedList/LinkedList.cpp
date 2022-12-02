@@ -1,10 +1,13 @@
 
+
+
 /*
  Linked List == linked list is also lenear type of data structure like array
                 but it's very different to array  
 
 
 */
+
 #include<iostream>
 using namespace std;
 
@@ -31,20 +34,18 @@ cout<<endl;
 int main()
 {
     // creation of node
-struct Node*  head  = new struct Node();
-struct Node*  second  = new struct Node();
-struct Node*  third  = new struct Node();
-head->data=7;
-head->next=second;
+struct Node*  head;
+
+struct Node*  first  = new struct Node();
+struct Node* second  = new struct Node();
+head = first;
+first->data=7;
+first->next=second;
 
 second->data=11;
-second->next=third;
-
-third->data=13;
-third->next=NULL;
+second->next=NULL;
 
 travers(head);
-
 return 0;
 
 
