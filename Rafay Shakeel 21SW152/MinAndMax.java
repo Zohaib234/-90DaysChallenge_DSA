@@ -26,3 +26,6 @@ public class MinAndMax {
       System.out.println("Minimum value in the array is::"+m.min(myArray));
    }
 }
+
+
+//I still don't know shit about Time and Space complexities in DSA.
