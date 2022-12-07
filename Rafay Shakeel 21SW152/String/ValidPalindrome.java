@@ -24,7 +24,7 @@ class ValidPalindrome {
 	public static void main(String[] args)
 	{
 		// Input string
-		String str = "geeks";
+		String str = "civic";
 
 		// Convert the string to lowercase
 		str = str.toLowerCase();
@@ -32,3 +32,4 @@ class ValidPalindrome {
 		System.out.println(A);
 	}
 }
+//I still know nothing about time and space continium.
