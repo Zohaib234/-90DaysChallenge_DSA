@@ -1,20 +1,36 @@
-import java.util.Scanner;
+/*package whatever //do not write package name here */
 
-class ValidPalindrome{
-    /**
-     * @param args
-     */
-    public static void main(String args[]){
-        Scanner sc= new Scanner(System.in);
+import java.io.*;
 
-        System.out.print("Enter a word to be checked as a palindrome: ");
-        String word= sc.nextLine();
+class ValidPalindrome {
+	public static boolean isPalindrome(String str)
+	{
+		// Initializing an empty string to store the reverse
+		// of the original str
+		String rev = "";
 
-        final boolean notIsPalindrome(word){
-            System.out.println("True");
-        }
+		// Initializing a new boolean variable for the
+		// answer
+		boolean ans = false;
 
-    }
+		for (int i = str.length() - 1; i >= 0; i--) {
+			rev = rev + str.charAt(i);
+		}
+
+		// Checking if both the strings are equal
+		if (str.equals(rev)) {
+			ans = true;
+		}
+		return ans;
+	}
+	public static void main(String[] args)
+	{
+		// Input string
+		String str = "geeks";
+
+		// Convert the string to lowercase
+		str = str.toLowerCase();
+		boolean A = isPalindrome(str);
+		System.out.println(A);
+	}
 }
-
-//Still Full Of Errors
