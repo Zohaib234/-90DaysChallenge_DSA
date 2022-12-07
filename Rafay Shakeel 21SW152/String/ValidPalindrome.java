@@ -1,5 +1,3 @@
-/*package whatever //do not write package name here */
-
 import java.io.*;
 
 class ValidPalindrome {
