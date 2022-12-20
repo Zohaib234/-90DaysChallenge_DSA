@@ -1,0 +1,16 @@
+Defintion:
+Sorting an array means to arrange the elements in the array in a certain order.
+
+=>  Internal/External Sorting
+Internal sorting means that all the data that is to be sorted is stored in memory while sorting is in progress.
+
+External sorting means that the data is stored outside memory (like on disk) and only loaded into memory in small chunks. External sorting is usually applied in cases when data can’t fit into memory entirely, effectively allowing to sort data that does not fit in the memory.
+
+
+
+
+=>  Stability of Sort
+A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in the sorted output as they appear in the unsorted input.
+
+A sorting algorithm is said to be unstable if there are two or more objects with equal keys which don’t appear in same order before and after sorting.
+
