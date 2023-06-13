@@ -1,4 +1,4 @@
-public class Test_Fabonacci_Recurrsion{
+public class Test_Fibonacci_Recurrsion{
     long fab(int n){
         if(n<1){
             return 0;
@@ -21,7 +21,7 @@ public class Test_Fabonacci_Recurrsion{
         return f2;
     }
     public static void main(String[] args) {
-        Test_Fabonacci_Recurrsion a=new Test_Fabonacci_Recurrsion();
+        Test_Fibonacci_Recurrsion a=new Test_Fibonacci_Recurrsion();
 
         for(int i=30;i<=40;i++){
             long t0 =System.currentTimeMillis();
